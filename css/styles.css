@@ -1,0 +1,118 @@
+/* common variables */
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+  .sm-nofloat {
+    float: none !important; }
+  /* class .xs-{XXX} applies only for small devices (phones) */
+  .xs-show {
+    display: inline !important;
+    text-align: center; }
+  .xs-hide {
+    display: none; }
+  .xs-wrap {
+    border: 1px solid #cecece;
+    text-align: center; }
+  .xs-label-vic {
+    margin-bottom: 0px; } }
+
+/* media-query to check if greater than 768 (tablets and mid-wide desktops) */
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 1163px; } }
+
+body {
+  font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  /* to become full responsive design: remove min-width */
+  min-width: 522px;
+  /* styles generic elements */
+  /* styles generic classes */
+  /* styles icon anchor link */
+  /* styles lightbox/modal */ }
+  body label {
+    font-weight: normal; }
+  body a#full-results {
+    padding: 15px; }
+  body a:hover {
+    text-decoration: none;
+    color: #333; }
+  body .bg-black {
+    background-color: #333; }
+  body .fg-black {
+    color: #333; }
+  body .fg-darkgrey {
+    color: #777; }
+  body .fg-lightgrey {
+    color: #cecece; }
+  body .clear-left {
+    clear: left; }
+  body .clear-right {
+    clear: right; }
+  body .spacer-md {
+    margin-top: 10px; }
+  body .left20 {
+    padding-left: 20px; }
+  body .strong {
+    font-weight: bold; }
+  body .circle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%; }
+  body .race {
+    /* styles header */
+    /* styles list ranking */ }
+    body .race.race-0 header {
+      margin-top: 0px; }
+    body .race header {
+      color: #fff;
+      margin-top: 45px; }
+      body .race header > div.top-header {
+        width: 100%;
+        height: 70px; }
+        body .race header > div.top-header h2 {
+          background-color: #fff;
+          color: #333;
+          height: 40px;
+          width: 40px;
+          line-height: 40px;
+          text-align: center;
+          margin-top: 15px; }
+        body .race header > div.top-header h4.date:before {
+          content: '\00a0\00a0 | \00a0'; }
+      body .race header > img {
+        width: 100%; }
+      body .race header > .icon-zoom {
+        margin: -40px 0 0 15px;
+        display: block;
+        cursor: pointer;
+        width: 30px; }
+        body .race header > .icon-zoom:before {
+          color: #fff;
+          font-size: 28px; }
+    body .race .list-ranking > ul {
+      list-style: none;
+      margin-bottom: 0px;
+      /* styles header list ranking */
+      /* styles body ranking (all content) */ }
+      body .race .list-ranking > ul.head {
+        list-style: none;
+        background-color: #f3f3f3;
+        height: 50px;
+        line-height: 50px;
+        margin-top: 12px; }
+      body .race .list-ranking > ul.body > li {
+        padding: 8px 0;
+        border-bottom: 1px solid #cecece; }
+        body .race .list-ranking > ul.body > li .position {
+          font-size: 22px; }
+        body .race .list-ranking > ul.body > li .rider-name {
+          margin-left: 15px; }
+        body .race .list-ranking > ul.body > li .vertical-centering {
+          line-height: 40px; }
+    body .race .list-ranking.head li:first-child, body .race .list-ranking.body li div:first-child {
+      padding-left: 0px; }
+  body .icon-arrow:before {
+    color: #777;
+    font-size: 16px; }
+  body .modal-dialog img {
+    width: 100%; }
